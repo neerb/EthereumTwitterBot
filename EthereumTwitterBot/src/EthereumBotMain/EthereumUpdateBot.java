@@ -46,10 +46,10 @@ public class EthereumUpdateBot
 		{
 			ConfigurationBuilder cf = new ConfigurationBuilder();
 
-			cf.setDebugEnabled(true).setOAuthConsumerKey("QVPpO9nl99Ci4F9kzGTdcJiWd")
-					.setOAuthConsumerSecret("xyM9bV9ELaQaQu8Ze5TYCS2jHnqS5h2ilQ7a54RWG2jEHTyWSr")
-					.setOAuthAccessToken("1184363843864203264-v2N6icz36DFY0Ls0x2RAiAIsTjld9e")
-					.setOAuthAccessTokenSecret("rYNSVQazpiR9QkcPc67uvIKH5zgoAzOI28iLicOYO0GWU");
+			cf.setDebugEnabled(true).setOAuthConsumerKey("Your OAuthConsumerKey here")
+					.setOAuthConsumerSecret("Your OAuthConsumerSecret here")
+					.setOAuthAccessToken("Your OAuthAccessToken here")
+					.setOAuthAccessTokenSecret("Your OAuthAccessTokenSecret here");
 
 			TwitterFactory tf = new TwitterFactory(cf.build());
 			Twitter twitterInstance = tf.getInstance();
